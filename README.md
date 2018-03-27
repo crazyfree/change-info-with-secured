@@ -28,4 +28,4 @@ php artisan migrate --seed
 to create database tables and seed them. 
 
 Next, to get access token, you need to login using API: /api/v1/login. 
-After got token, you have to add 
+After got token, you have to add it under [Bearer Authentication](https://swagger.io/docs/specification/authentication/bearer-authentication/) header and key in form-data for user info like name, address, phone number... to update corresponding user info.
