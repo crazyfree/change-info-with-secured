@@ -6,15 +6,25 @@
 * Tokenizer PHP Extension
 
 ## How to run the project
+### Configuration
 After clone project from github, please kindly goto .env file and fill the following info
 * database name: a blank DBthat you created in mysql
 * mysql user name: that you granted permission to access the DB
 * mysql user passsword: for secure reason, you should create strong user password includes upper case, number, text and special character. 
 
-Then run commands
+### Run commands
+Run following commands in order to setup project
 ```
-php artisan migrate
-php artisan db:seed
+composer update
+```
+to install app dependencies.
+
+Then run
+```
+php artisan migrate --seed
 
 ```
-in order to create database tables and seeding 
+to create database tables and seed them. 
+
+Next, to get access token, you need to login using API: /api/v1/login. 
+After got token, you have to add 
