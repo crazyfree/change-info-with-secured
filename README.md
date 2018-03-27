@@ -8,7 +8,7 @@
 
 ## How to run the project
 ### Configuration
-After clone project from github, please kindly goto .env file and fill the following info
+After clone project from github, please kindly rename file .env_exmaple to .env and change following info
 * DB_DATABASE: you MUST create a blank DB in mysql before key in this field
 * DB_USERNAME: that you granted permission to access the DB
 * DB_PASSWORD: for secure reason, you should create strong user password includes upper case, number, text and special character. 
