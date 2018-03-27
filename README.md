@@ -4,6 +4,7 @@
 * PDO PHP Extension
 * Mbstring PHP Extension
 * Tokenizer PHP Extension
+* [Composer](https://getcomposer.org) to manage dependencies. You can follow instruction [here](https://getcomposer.org/doc/00-intro.md) to install easily.
 
 ## How to run the project
 ### Configuration
